@@ -1,5 +1,10 @@
 # Quick start
 
+**Note**
+
+This project was completed as part of the course requirements for [MPCS](52553
+Web Development)
+
 After cloning the repo, run the following commands in your terminal:
 `cd /path/to/belay_root_dir/server`
 
