@@ -1,0 +1,17 @@
+##[pylyzer] failed /users/kyle/mpcs/webdev/final_project/server/api/channels.py 1715041041 3382
+.___v_desugar_1 = pyimport "flask"
+.Blueprint: Never
+.request: Never
+.___v_desugar_2 = pyimport "utils/helpers"
+.convert_channels_to_dicts: Never
+.get_db: Never
+.has_api_key: Never
+.new_room: Never
+.query_db: Never
+.channels: Never
+.get_all_channels: () -> Never
+.get_room_by_id: (room_id: Obj) -> Never
+.create_room: () -> Never
+.rename_room: (room_id: Bool) -> Never
+.post_new_message_to_room: (room_id: Obj) -> Never
+.get_room_messages: (room_id: Obj) -> Never

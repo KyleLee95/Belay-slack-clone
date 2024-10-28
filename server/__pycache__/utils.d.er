@@ -1,0 +1,20 @@
+##[pylyzer] failed /users/kyle/mpcs/webdev/final_project/server/utils.py 1714535064 2593
+.string = pyimport "string"
+
+.random = pyimport "random"
+
+.sqlite3 = pyimport "sqlite3"
+
+.___v_desugar_1 = pyimport "flask"
+.g: Never
+.request: Never
+.___v_desugar_2 = pyimport "functools"
+.wraps: Never
+.has_api_key: |Type_42: Type|(func: (Obj) -> Type_42) -> (*args: Obj, **kwargs: ?35) -> Never
+.get_db: () -> {None}
+.query_db: (query: Obj, args := Obj, one := Bool) -> Bool
+.new_room: () -> Array!(Dict!({{"name"}: Never, {"id"}: Never}), 1)
+.new_user: () -> Bool
+.convert_messages_to_dicts: |V: Type|(rows: Iterable(Indexable(Obj, V))) -> Array!(Dict!({{"message_id"}: V, {"user_id"}: V, {"body"}: V, {"room_id"}: V}), 1)
+.convert_user_to_dict: |V: Type|(rows: Iterable(Indexable(Obj, V))) -> Dict!({{"id"}: V, {"api_key"}: V, {"name"}: V})
+.convert_rooms_to_dicts: (rows: Never) -> Array!(Dict!({{"name"}: Never, {"id"}: Never}), 1)

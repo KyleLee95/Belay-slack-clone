@@ -1,0 +1,25 @@
+##[pylyzer] failed /users/kyle/mpcs/webdev/final_project/server/utils/helpers.py 1715233921 3024
+.random: Never
+
+.sqlite3: Never
+
+.string: Never
+
+.___v_desugar_1: Never
+.wraps: Never
+.bcrypt: Never
+
+.___v_desugar_2: Never
+.g: Never
+.make_response: Never
+.request: Never
+.new_user: () -> Never
+.convert_messages_to_dicts: (rows: Iterable(Indexable(Obj, Never))) -> List!(Dict!({{"room_id"}: V, {"message_id"}: V, {"user_id"}: V, {"body"}: V}), 1)
+.convert_user_to_dict: (rows: Iterable(Indexable(Obj, Never))) -> Dict!({{"password"}: V, {"username"}: V, {"id"}: V})
+.convert_channels_to_dicts: (rows: Iterable(Indexable(Obj, Never))) -> List!(Dict!({{"id"}: V, {"name"}: V}), 1)
+.has_api_key: |Type_69: Type|(func: (Obj) -> Type_69) -> (*args: Obj, **kwargs := ?62) -> Never
+.get_db: () -> {None}
+.query_db: (query: Obj, args: Obj := Obj, one: Bool := Obj) -> Bool
+.new_room: () -> Never
+{"name"}: V, {"id"}: V}), 1)
+"id"}: Never}), 1)

@@ -1,0 +1,17 @@
+##[pylyzer] failed /users/kyle/mpcs/webdev/final_project/server/api/rooms.py 1714540125 3273
+.___v_desugar_1 = pyimport "utils"
+.query_db: Never
+.has_api_key: Never
+.get_db: Never
+.convert_rooms_to_dicts: Never
+.new_room: Never
+.___v_desugar_2 = pyimport "flask"
+.request: Never
+.Blueprint: Never
+.rooms: Never
+.get_all_rooms: () -> Never
+.get_room_by_id: (room_id: Obj) -> Never
+.create_room: () -> Never
+.rename_room: (room_id: Bool) -> Never
+.post_new_message_to_room: (room_id: Obj) -> Never
+.get_room_messages: (room_id: Obj) -> Never

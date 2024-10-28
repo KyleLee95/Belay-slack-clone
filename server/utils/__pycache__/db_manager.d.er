@@ -1,0 +1,18 @@
+##[pylyzer] failed /users/kyle/mpcs/webdev/final_project/server/utils/db_manager.py 1714892116 1630
+.os = pyimport "os"
+
+.sqlite3 = pyimport "sqlite3"
+
+.___v_desugar_1 = pyimport "flask"
+.current_app: Never
+.g: Never
+.DatabaseManager: ClassType
+.DatabaseManager.app: Never
+.DatabaseManager.__call__: (app: Obj) -> .DatabaseManager
+.DatabaseManager.init_app: (self: .DatabaseManager, app: Never) -> Never
+.DatabaseManager.get_db: (self: .DatabaseManager) -> Never
+.DatabaseManager.teardown: (self: .DatabaseManager, exception := Obj) -> NoneType
+.DatabaseManager.init_db: (self: .DatabaseManager) -> Never
+.DatabaseManager.setup_database: (self: .DatabaseManager) -> Never
+.DatabaseManager.run_migrations: (self: .DatabaseManager) -> Never
+

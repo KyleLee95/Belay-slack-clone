@@ -1,0 +1,19 @@
+##[pylyzer] failed /users/kyle/mpcs/webdev/final_project/server/utils/query_manager.py 1715054641 3956
+.Model: ClassType
+.Model.__call__: () -> .Model
+.Model._relationships: Dict!({Never: Dict!(_: GenericDict)})
+.Model._conn: {None}
+.Model.create: |Type_64: Type|(cls: () -> Type_64, **kwargs: ?Type_6) -> Type_64
+.Model.addRelation: |T :> Str, T: Type|(self: .Model, relation: T, instance: Obj) -> T
+.Model.set_connection: |Type_14 <: Structural({._conn = Type_15}), Type_15: Type|(cls: Type_14, conn: Type_15) -> NoneType
+.Model.all: |T: Type|(cls: () -> T) -> Array!(T, _: Nat)
+.Model.where: |T: Type|(cls: () -> T, **kwargs: ?Type_22) -> Array!(T, _: Nat)
+.Model.belongsTo: (cls: Obj, other_cls: Obj, as_relation: Obj) -> NoneType
+.Model.hasOne: (cls: Obj, other_cls: Obj, as_relation: Obj) -> NoneType
+.Model.hasMany: (cls: Obj, other_cls: Obj, as_relation: Obj) -> NoneType
+.Model.belongsToMany: (cls: Obj, other_cls: Obj, as_relation: Obj) -> NoneType
+.Model.save: (self: .Model) -> Never
+.Model.raw: |Type_48 <: Structural({._conn = Never})|(cls: Type_48, sql: Obj, params := Bool) -> Array!(Dict({Never: Never}), _: Nat)
+.Model.related: (self: .Model, related_cls_name: Obj) -> Never
+.Model.__repr__: (self: .Model) -> Never
+
